@@ -1,0 +1,9 @@
+.content{
+  margin:0;
+}
+
+.published{
+    margin-top: -12px;
+    font-size: 0.6em;
+    padding-left: 1px;
+}
