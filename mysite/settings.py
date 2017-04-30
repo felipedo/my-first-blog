@@ -25,7 +25,7 @@ SECRET_KEY = '+64)8wtfveuu$)c11=86cq##gp9-8s@z$m^4#bvhlm@4=5)zcz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['felipedo.pythonanywhere.com']
 
 
 # Application definition
