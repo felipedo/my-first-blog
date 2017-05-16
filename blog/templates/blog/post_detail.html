@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+<li class="collection-item">
+  <span class="title"><h5>{{ post.title }}</h5></span>
+  {% if post.published_date %}
+    <p class="published">Published: {{ post.published_date }}</p>
+  {% else %}
+    <p class="published">Nao publicado</p>
+  {% endif %}
+  <p>{{ post.text | linebreaksbr }}</p>
+</li>
+{% endblock content %}
