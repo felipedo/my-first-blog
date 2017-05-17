@@ -1,7 +1,7 @@
 {% extends 'blog/base.html' %}
 {% block content %}
 <li class="collection-item">
-  <span class="title"><h5>{{ post.title }}</h5></span>
+  <span class="title"><h5>{{ post.title }}<a href="{% url 'post_edit' pk=post.pk %}" class="secondary-content"><i class="material-icons grey-text">create</i></a></h5></span>
   {% if post.published_date %}
     <p class="published">Published: {{ post.published_date }}</p>
   {% else %}
